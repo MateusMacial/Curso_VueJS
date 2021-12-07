@@ -1,14 +1,21 @@
 <template>
     <div id="app">
-        <h1>Olá VueJS</h1>
+        <h1>Calculadora</h1>
+        <Calculator/>
     </div>
 </template>
 
-<script>
-export default {
 
+
+<script>
+import Calculator from "./main/Calculator.vue"
+
+export default {
+    components: {Calculator}
 }
 </script>
+
+
 
 <style>
 @font-face {
